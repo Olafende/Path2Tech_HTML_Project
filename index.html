@@ -4,8 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Contact.html">Contact</a>
+  </nav>  
+
+  <h1>IT Team Members</h1>
+  <h2>Add New Member</h2>
+  <form>     
+    <legend>First Name</legend>
+<br>      
+      <label for="message">
+        <input type="text" placeholder="John" name="message" id="message">
+      </label>
+<br><br>
+    <legend>Last Name</legend>
+<br>      
+     <label for="message">
+        <input type="text" placeholder="Doe" name="message" id="message">
+      </label>
+<br><br>    
+    <legend>Role</legend> 
+<br>  <label for="message">
+        <input type="text" placeholder="developer" name="message" id="message">
+      </label>       
+<br><br> 
+    <legend>Email</legend>
+<br>      
+      <label for="message">
+        <input type="text" placeholder="email@email.com" name="message" id="message">
+      </label>
+<br>      
+      <button type="submit">Add Member</button>
+  </form>
+
+
+  <h2>Team Members</h2>
+  <table border="1">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Role</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>Developer</td>
+      <td>johndoe@npower.net</td>  
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Doe</td>
+      <td>Designer</td>
+      <td>janedoe@npower.net</td>
+    </tr>
+    <tr>
+      <td>Mike</td>
+      <td>Smith</td>
+      <td>Tester</td>
+      <td>miketester@npower.net</td>
+    </tr>
+  </table>
+  <p>NPower &copy; 2024</p>
 </body>
 </html>
